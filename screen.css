@@ -1,17 +1,21 @@
 /* Add screen styles below */
 
+body {
+    font-size: 100%;
+  }
+
 h1 {
     font-family: "Sofia", sans-serif;
     font-style: italic;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 2.5em;
     text-shadow: 2px 2px 2px #ababab;
 }
 
 h2 {
     font-family: "Sofia", sans-serif;
     font-style: italic;
-    font-size: 45px;
+    font-size: 1.875em;
     text-align: center;
     margin: auto;
     width: 50%;
@@ -20,5 +24,5 @@ h2 {
 
 .p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 35px;
+    font-size: 0.875em;
 }
