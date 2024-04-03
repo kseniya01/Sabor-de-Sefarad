@@ -4,6 +4,8 @@ h1 {
     font-family: "Sofia", sans-serif;
     font-style: italic;
     font-weight: bold;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px #ababab;
 }
 
 h2 {
