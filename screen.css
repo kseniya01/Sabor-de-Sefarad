@@ -11,7 +11,10 @@ h1 {
 h2 {
     font-family: "Sofia", sans-serif;
     font-style: italic;
-    font-size: 25px;
+    font-size: 30px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
 
 .p {
