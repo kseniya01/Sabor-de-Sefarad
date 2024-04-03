@@ -31,14 +31,6 @@
       }
     </script>
     
-<!-- INSTALL TAILWIND - TRY ADDING SOME CUSTOM CSS: Add custom CSS supporting Tailwind CSS features -->
-    <style type="text/tailwindcss">
-      @layer utilities {
-        .content-auto {
-          content-visibility: auto;
-        }
-      }
-    </style>
 
 <!-- INSTALL TAILWIND - TRY USING A FIRST-PARTY PLUGIN: Enable first-party plugins using the 'plugins' query parameter -->
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
@@ -58,9 +50,9 @@
   <div class="relative bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10 sm:flex sm:items-center display:inline-flex">
     <div class="mx-auto max-w-md">
       <img class="block mx-auto align-center h-40 rounded-full sm:shrink-0 border-4 border-black-300" src="SDS-logo.png" alt="Sabor de Sefarad">
-      <h1> Sabor de Sefarad </h1>
       <div class="divide-y divide-gray-300/50">
         <div class="space-y-6 py-8 text-base leading-7 text-gray-600">
+          
           <ul class="space-y-4">
             <li class="flex items-center">
               <svg class="h-6 w-6 flex-none fill-sky-100 stroke-sky-500 stroke-2" stroke-linecap="round" stroke-linejoin="round">
@@ -69,6 +61,7 @@
               </svg>
               <p class="ml-4"> Quick in-line schpiel here. </p>
             </li>
+            
             <li class="flex items-center">
               <svg class="h-6 w-6 flex-none fill-sky-100 stroke-sky-500 stroke-2" stroke-linecap="round" stroke-linejoin="round">
                 <circle cx="12" cy="12" r="11"></circle>
@@ -76,6 +69,7 @@
               </svg>
               <p class="ml-4"> Quick in-line schpiel here. </p>
             </li>
+            
             <li class="flex items-center">
               <svg class="h-6 w-6 flex-none fill-sky-100 stroke-sky-500 stroke-2" stroke-linecap="round" stroke-linejoin="round">
                 <circle cx="12" cy="12" r="11"></circle>
@@ -84,14 +78,18 @@
               <p class="ml-4"> Quick in-line schpiel here. </p>
             </li>
           </ul>
+          
           <p> Line to catch the eye HERE! </p>
+
         </div>
+        
         <div class="pt-8 text-base font-semibold leading-7">
           <p class="text-gray-900">What to place an order?</p>
           <p>
             <a class="text-sky-500 hover:text-sky-600" href="fakelinkhere"> See our stock →</a>
           </p>
         </div>
+      
       </div>
     </div>
   </div>
