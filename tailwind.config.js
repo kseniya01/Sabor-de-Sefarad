@@ -5,11 +5,12 @@ export default __CONFIG__
 /** CONFIG. TAILWIND TYPOGRAPHY - Add Tailwind Typography plugin */
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    theme: {
-      // ...
-    },
-    plugins: [
-      require('@tailwindcss/typography'),
-      // ...
-    ],
-  }
+  purge: [],
+  theme: {
+    extend: {},
+  },
+  variants: {},
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
+}
