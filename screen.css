@@ -1,12 +1,14 @@
 /* Add screen styles below */
 
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Sofia", sans-serif;
     font-style: italic;
+    font-weight: bold;
 }
 
 h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
 }
 
 p {
