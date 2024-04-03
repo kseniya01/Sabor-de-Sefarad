@@ -4,15 +4,16 @@ h1 {
     font-family: "Sofia", sans-serif;
     font-style: italic;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
     text-shadow: 2px 2px 2px #ababab;
 }
 
 h2 {
     font-family: "Sofia", sans-serif;
-    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
 }
 
-p {
+.p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
