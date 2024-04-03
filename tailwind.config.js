@@ -1,8 +1,8 @@
-/** TAILWIND - Define customizations at the root of the project */
+/** TAILWIND CUSTOMIZATION - Define customizations at the root of the project */
 /** @type {import('tailwindcss').Config} */
 export default __CONFIG__
 
-/** TAILWIND - Add Tailwind Typography plugin */
+/** CONFIG. TAILWIND TYPOGRAPHY - Add Tailwind Typography plugin */
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     theme: {
