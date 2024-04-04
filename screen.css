@@ -21,7 +21,6 @@ header h2 {
     text-align: left;
     margin: 20px;
     width: 50%;
-    padding: 20px;
 }
 
 .details p {
@@ -30,7 +29,6 @@ header h2 {
 }
 
 .details img {
-    margin: 10px;
     padding: auto;
     margin: auto;
 }
@@ -44,4 +42,9 @@ header h2 {
 .details ul li.challah {
     background: url('challah.PNG') no-repeat center left;
     margin: 15px 15px 15px 15px;
+}
+
+.about p {
+    text-align: center;
+    margin: 10px;
 }

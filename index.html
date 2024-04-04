@@ -2,22 +2,19 @@
 <html lang="en">
 
   <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="screen.css">
-
     <script src="index.js"></script>
     <script src="input.css"></script>
-
 <!-- GOOGLE FONTS - Adds various fonts from Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans">
 <!-- INSTALL TAILWIND - ADD PLAY CDN SCRIPT TO HTML: Enables Tailwind utility classes to style content -->
   <script src="https://cdn.tailwindcss.com"></script>
-    
     <title>Sabor de Sefarad</title>
-
 <!-- INSTALL TAILWIND - TRY CUSTOMIZING YOUR CONFIG: Edit the tailwind.config object to customize config -->
     <script>
       tailwind.config = {
@@ -30,77 +27,68 @@
         }
       }
     </script>
-    
-
 <!-- INSTALL TAILWIND - TRY USING A FIRST-PARTY PLUGIN: Enable first-party plugins using the 'plugins' query parameter -->
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-
 <!-- FLOWBITE - INCLUDE VIA CDN: Req. minified stylesheet inside head tag -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
-  
+ 
   </head>
   
   <body>
   <header>
-    <h2 style="color:black; font-size: 200%"> Baked with Pride . . . from Lisbon, with Love! </h2>
+    <h2 style="color:black; hover:text-blue-700; font-size: 180%"> Baked with Pride . . . from Lisbon, with Love! </h2>
   </header>
-
 <div class="relative flex flex-col justify-center overflow-hidden padding-40 bg-gray-50 py-6">
-  
-  <div class="relative bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:rounded-lg sm:px-80 sm:flex sm:items-center display:inline-flex">
+  <div class="relative bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:rounded-lg sm:px-20 sm:flex sm:items-center display:inline-flex">
     <div class="mx-auto max-w-md">
-      <img class="block mx-auto align-center h-60 rounded-full sm:shrink-0 border-4 border-black" src="SDS-logo.png" alt="Sabor de Sefarad">
+      <img class="block mx-auto align-center h-60 rounded-full sm:shrink-0 border-4 border-black hover:border-blue-700" src="SDS-logo.png" alt="Sabor de Sefarad">
       <div class="divide-y divide-gray-300/50">
         <div class="space-y-6 py-8 text-base leading-7 text-black-600">
           <h1 style="color:black; font-size:350%">Sabor de Sefarad</h1>
           <div class="text-gray-900 font-size:80% font-semibold align-center">
-            <p class="about">
-              Indulge in the rich tapestry of flavors woven into every pastry and treat, lovingly crafted to honor our heritage. 
-              Transport your senses to the heart of Portugal, now serving authentic delights from three beloved locations 
-              across Lebanon and Barcelona. 
-            </p>
+            <section class="about">
+              <p>Indulge in the rich tapestry of flavors woven into every pastry and treat, lovingly crafted to honor our heritage. 
+                Transport your senses to the heart of Portugal, now serving authentic delights from three beloved locations 
+                across Lebanon and Barcelona.</p> 
+            </section>
           </div>
           <section class="details">
-            <ul class="space-y-4">
+            <ul>
               <li class="flex items-center">
                 <img class="align-center h-70 w-90 flex-none stroke-2" stroke-linecap="round" stroke-linejoin="round" src="challah.PNG" alt="challah">
               </li>
-              <li class="flex items-center">
-              <svg class="h-6 w-6 flex-none fill-gray-50 stroke-blue-500 stroke-2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="12" r="11"></circle>
-                <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none"></path>
-              </svg>
-              <p class="ml-4 text-gray-900" style="font-size:150%"> Freshly baked every day </p>
-            </li>
-            <li class="flex items-center">
-              <svg class="h-6 w-6 flex-none fill-gray-50 stroke-blue-500 stroke-2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="12" r="11"></circle>
-                <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none"></path>
-              </svg>
-              <p class="ml-4 text-gray-900" style="font-size:150%"> Kosher-certified guaranteed </p>
-            </li>
+              <section class="flex items-center">
+                <li class="flex items-center">
+                  <svg class="h-6 w-6 flex-none fill-gray-50 stroke-blue-500 stroke-2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="11"></circle>
+                    <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none"></path>
+                  </svg>
+                  <p class="ml-4 font-medium text-gray-900 hover:text-blue-700" style="font-size:100%"> Fresh baked daily </p>
+                </li>
+                <li class="flex items-center">
+                  <svg class="h-6 w-6 flex-none fill-gray-50 stroke-blue-500 stroke-2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="11"></circle>
+                    <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none"></path>
+                  </svg>
+                  <p class="ml-4 font-medium text-gray-900 hover:text-blue-700" style="font-size:100%"> Kosher-certified guarantee</p>
+                </li>
           </ul>
         </section>
         </div>
-        
         <div class="pt-8 text-base font-semibold leading-7">
           <p class="text-gray-900 font-size:80%">What to place an order?</p>
           <p>
             <a class="text-gray-900 hover:text-blue-700 font-size:120% uppercase" href="fakelinkhere"> View our full menu →</a>
           </p>
         </div>
-      
       </div>
     </div>
   </div>
 </div>
-
 <!-- INSTALL TAILWIND - TRY ADDING SOME CUSTOM CSS: Add custom CSS supporting Tailwind CSS features -->
     <div class="lg:content-auto"></div>
-
 <!-- INSTALL TAILWIND - TRY USING A FIRST-PARTY PLUGIN: Enable first-party plugins using the 'plugins' query parameter -->
 <div class="prose">
-
 <!-- INCLUDE FLOWBITE VIA CDN: Req. minified stylesheet inside body tag -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 
