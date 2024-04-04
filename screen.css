@@ -12,6 +12,7 @@ h1 {
     text-align: center;
     text-shadow: 2px 2px 2px #ababab;
     padding: 20px;
+    margin: 20px;
 }
 
 header h2 {
@@ -19,6 +20,7 @@ header h2 {
     font-style: italic;
     font-size: 1.875em;
     text-align: left;
+    padding: 20px;
     margin: 20px;
     width: 50%;
 }
