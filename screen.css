@@ -2,6 +2,10 @@
 
 body {
     font-size: 100%;
+    background-image: url('Bread.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 h1 {
