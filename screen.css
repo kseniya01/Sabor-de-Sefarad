@@ -19,16 +19,6 @@ h1 {
     margin: 20px;
 }
 
-header h2 {
-    font-family: "Sofia", sans-serif;
-    font-style: italic;
-    font-size: 1.875em;
-    text-align: left;
-    padding: 20px;
-    margin: 20px;
-    width: 50%;
-}
-
 #scroll-container {
     border: 0px solid black;
     border-radius: 0px;
@@ -46,9 +36,9 @@ header h2 {
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
     
-    -moz-animation: my-animation 25s linear infinite;
-    -webkit-animation: my-animation 25s linear infinite;
-    animation: my-animation 25s linear infinite;
+    -moz-animation: my-animation 35s linear infinite;
+    -webkit-animation: my-animation 35s linear infinite;
+    animation: my-animation 35s linear infinite;
 }
 
 /* for Firefox */
