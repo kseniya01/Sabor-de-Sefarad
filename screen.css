@@ -32,7 +32,7 @@ header h2 {
 #scroll-container {
     border: 0px solid black;
     border-radius: 0px;
-    overflow: auto;
+    overflow: hidden;
     background-color: white;
     font-style: italic;
     font-weight: bold;
