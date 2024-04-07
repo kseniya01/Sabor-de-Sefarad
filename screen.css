@@ -33,6 +33,10 @@ header h2 {
     border: 3px solid black;
     border-radius: 10px;
     overflow: hidden;
+    font-style: italic;
+    font-weight: bold;
+    margin: 40px;
+    padding: 20px;
 }
   
 #scroll-text {
