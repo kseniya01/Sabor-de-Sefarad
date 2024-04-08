@@ -23,7 +23,7 @@ h1 {
     border: 0px solid black;
     border-radius: 0px;
     overflow: hidden;
-    background-color: white;
+    background-color: gray 50%;
     font-weight: bold;
     font-size: 30px;
     margin-top: 80px;
